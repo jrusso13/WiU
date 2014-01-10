@@ -12,58 +12,6 @@ header {text-align: center;
         font: 20px 'ChunkFiveRegular';
 		}
 
-ul#nav-example li { 
-	display: inline-block; float: none; 
-
-	}
-	
-ul#nav-example li a {
-	display: block; float: none; height: 100px;
-	background-image: url(img/nav-final.png); text-indent: -9999px;
-	width: 256px;
-	}
-
-	ul#nav-example li a.tests {
-		 background-position: 0px 1px;
-	}
-	
-	/*ul#nav-example li a.things {*/
-		 /*background-position: -128px 1px;*/
-	/*}*/
-	
-	/*ul#nav-example li a.dining {*/
-		 /*background-position: -256px 1px;*/
-	/*}*/
-	
-	/*ul#nav-example li a.millionaire {*/
-		 /*background-position: -384px 1px;*/
-	/*}*/
-	
-	ul#nav-example li a.results {
-		 background-position: -384px 1px;
-	}
-	
-	
-	ul#nav-example li a.tests:hover, ul#nav-example li a.tests:focus {
-		background-position: -0 -90px;
-	}
-	
-	/*ul#nav-example li a.things:hover, ul#nav-example li a.things:focus {*/
-		/*background-position: -128px -100px;	*/
-	/*}*/
-	
-	/*ul#nav-example li a.dining:hover, ul#nav-example li a.dining:focus {*/
-		/*background-position: -256px -100px;	*/
-	/*}*/
-	/**/
-	/*ul#nav-example li a.millionaire:hover, ul#nav-example li a.millionaire:focus {*/
-		/*background-position: -384px -100px;	*/
-	/*}*/
-	
-	ul#nav-example li a.results:hover, ul#nav-example li a.results:focus {
-		background-position: -384px -90px;
-	}
-
 body {
   	padding: 10px;  
   	height: 100%;  
@@ -73,12 +21,13 @@ h1 {
 	font-size: 250%;
 	}
 
-h3 {
+h2 {
 	font-size: 125%;
 	text-align: center;
 	}
-	
-
+p {
+    color: white; text-align: center; margin: 25px; font-size: 120%;
+}
 
 #main {
 	
@@ -89,8 +38,39 @@ h3 {
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 15px;
-	height: 700px;
+	height: 900px;
 	}
+/*-------------------------------------------  table -------------------------------------------------------*/
+table{
+    background: #f7f7f9;  /*changes color of the background of the table*/
+    border-collapse: collapse;
+    width: 100%;
+}
+tr{
+    display: table-row;
+    border-color: inherit;
+}
+.odd{
+    background: #ececec; /*changes color of the stripes table*/
+}
+th{
+    text-align: left;
+    padding: 1em 1em .5em;
+    font-weight: bold;
+    font-size: 120%;
+    color: #545257;  /*changes color of table hd text*/
+    background: #bbbcc0; /*changes color of table hd background*/
+}
+th:first-child{
+    /*border-right: 1px solid #6a7680;*/
+}
+td{
+    padding: 1em 1em;
+    width: 69%;
+}
+td:first-child{
+    /*border-right: 1px solid #6a7680;*/
+}
 
 
 
